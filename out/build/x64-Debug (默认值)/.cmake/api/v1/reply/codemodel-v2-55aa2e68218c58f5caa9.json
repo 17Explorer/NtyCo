@@ -1,0 +1,188 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "sample",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sample",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "NtyCo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "nty_bench::@f68f564e181663381ef6",
+					"jsonFile" : "target-nty_bench-Debug-be05a3e9cc39a937453e.json",
+					"name" : "nty_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nty_client::@f68f564e181663381ef6",
+					"jsonFile" : "target-nty_client-Debug-11afc4b4704023b54e5d.json",
+					"name" : "nty_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nty_core::@57760688d1f824db5d9c",
+					"jsonFile" : "target-nty_core-Debug-5d6265c8fda875b084fd.json",
+					"name" : "nty_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nty_http_epoll::@f68f564e181663381ef6",
+					"jsonFile" : "target-nty_http_epoll-Debug-0fd44c5f8eaa0286f3e1.json",
+					"name" : "nty_http_epoll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nty_http_server::@f68f564e181663381ef6",
+					"jsonFile" : "target-nty_http_server-Debug-5f81e19bc0d37c76c5f5.json",
+					"name" : "nty_http_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nty_http_server_mulcore::@f68f564e181663381ef6",
+					"jsonFile" : "target-nty_http_server_mulcore-Debug-39ca884e40eff80dc690.json",
+					"name" : "nty_http_server_mulcore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nty_mysql_client::@f68f564e181663381ef6",
+					"jsonFile" : "target-nty_mysql_client-Debug-eedd7551b3bac2202940.json",
+					"name" : "nty_mysql_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nty_mysql_oper::@f68f564e181663381ef6",
+					"jsonFile" : "target-nty_mysql_oper-Debug-914c35638e008ee23d55.json",
+					"name" : "nty_mysql_oper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nty_server::@f68f564e181663381ef6",
+					"jsonFile" : "target-nty_server-Debug-25e89f1a95af11e5d3fa.json",
+					"name" : "nty_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nty_server_mulcore::@f68f564e181663381ef6",
+					"jsonFile" : "target-nty_server_mulcore-Debug-2a7ca61ef909ea76f659.json",
+					"name" : "nty_server_mulcore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nty_websocket_server::@f68f564e181663381ef6",
+					"jsonFile" : "target-nty_websocket_server-Debug-b39ba153854ed95c239f.json",
+					"name" : "nty_websocket_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ntyco_httpd::@f68f564e181663381ef6",
+					"jsonFile" : "target-ntyco_httpd-Debug-62832ff20d725f39daae.json",
+					"name" : "ntyco_httpd",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "G:/C++/零声教育/资料/5.2协程调度器实现与性能测试/NtyCo/out/build/x64-Debug (默认值)",
+		"source" : "G:/C++/零声教育/资料/5.2协程调度器实现与性能测试/NtyCo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
